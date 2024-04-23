@@ -1,0 +1,101 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Cristobal
+    last_name: Jimenez
+    
+    # Define yourself in 4-5 words
+    motto: Los tropiezos pueden ser el mejor maestro para el desarrollo personal y profesional
+    
+    # Focus
+    focus: Desarrollo profesional
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Programador con 1 año de experiencia altamente motivado con ganas de aprender nuevas tecnologias 
+      y técnicas para la implementación, mejora y desarrollo de softwares o paginas web. Apasionado con
+      la resolucion de problemas. Habilidades de programacion en el enfoque Full-Stack Developer como
+      JavaScript, HTML, CSS, Git, GitHub, Terminal en Linux. Abierto a 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/profile.jpeg
+
+    # Contact Information
+    email: jimenezcristobal485@gmail.com #optional
+    phone: (+595) 983272073 #optional
+
+    linkedin: Cristobal Jimenez #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Cris9898
+    
+
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermedio
+
+      - idiom: Portugues
+        level: Professional
+
+      - idiom: Spanish
+        level: Natuvo
+
+    # Interests or hobbies
+    interests:
+      - item: Tocar Guitarra
+
+      - item: Hacer crossfit
+
+      - item: Jugar Videojuegos 
+
+# Your previous education
+education:
+    - degree: Ingeniero en Informatica
+      university: Universidad Privada del Este
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2016 - 2022
+      details: |
+        Enseñanza enfocado al mantenimiento de software, logicas de programacion y algunos proyectos.
+        Conceptos basicos en varios lenguajes como java, C#, VisualBasic, etc.
+        La creacion de bases de datos y el desarrollo orientados a objetos en sistemas locales.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Coordinador de Infraestructura TI
+      time: 2022 - Presente
+      company: Universidad Central del Paraguay
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Coordinacion de los trabajos en la institucion, mantenimento de las redes de internet
+        en los sectores de la universidad, soporte a las salas de clases; asi como profesores,
+        alumnos y funcionarios, ya sea en cualquier inconveniente que tenga que ver con equipos
+        o ayudas a los usuarios con tecnologias. Creaciones de redes y VLANs utilizando Ubiquiti
+        y configuraciones de los dispositivos, asi como Mikrotik
+
+    
+
+skills:
+    toolset:
+      - name: Java
+        level: 55%
+
+      - name: JavaScript & jQuery
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 67%
+
+      - name: C#
+        level: 85%
